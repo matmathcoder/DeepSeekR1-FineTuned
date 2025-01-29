@@ -1,0 +1,160 @@
+2025-01-28 05:05:37,947 - INFO - Loading model: deepseek-ai/DeepSeek-R1-1.5b
+2025-01-28 05:14:26,552 - INFO - Downloading model from https://huggingface.co/bartowski/DeepSeek-R1-Distill-Qwen-1.5B-GGUF/resolve/main/DeepSeek-R1-Distill-Qwen-1.5B-Q8_0.gguf
+2025-01-28 05:17:07,868 - ERROR - Failed to load model: Failed to load model from file: models\DeepSeek-R1-Distill-Qwen-1.5B-Q8_0.gguf
+2025-01-28 05:18:24,152 - INFO - Downloading model from https://huggingface.co/TheBloke/CodeLlama-7B-GGUF/resolve/main/codellama-7b.Q4_K_M.gguf
+2025-01-28 05:24:18,567 - INFO - Initialized LlamaCppModel with context size: 2048, threads: 8
+2025-01-28 05:24:18,568 - INFO - Model loaded successfully using 8 threads
+2025-01-28 05:24:23,445 - INFO - Tokenizer loaded successfully
+2025-01-28 05:24:23,446 - INFO - Preparing dataset...
+2025-01-28 05:24:34,630 - INFO - Found 543 valid Django files
+2025-01-28 05:24:35,247 - INFO - Dataset prepared with 543 examples
+2025-01-28 05:24:35,296 - ERROR - Training error: argument 'ids': Can't extract `str` to `Vec`
+2025-01-28 05:24:51,044 - INFO - Training completed. Model saved to fine_tuned_codellama_django_20250128_0524
+2025-01-28 05:26:33,513 - INFO - Model already exists at models\codellama-7b.Q4_K_M.gguf
+2025-01-28 05:26:34,676 - INFO - Initialized LlamaCppModel with context size: 2048, threads: 8
+2025-01-28 05:26:34,676 - INFO - Model loaded successfully using 8 threads
+2025-01-28 05:26:35,759 - INFO - Tokenizer loaded successfully
+2025-01-28 05:26:35,759 - INFO - Preparing dataset...
+2025-01-28 05:27:46,258 - INFO - Found 3764 valid Django files
+2025-01-28 05:27:46,555 - INFO - Dataset prepared with 6309 examples
+2025-01-28 05:34:00,372 - INFO - Epoch 1, Batch 0, Average Reward: 0.3599
+2025-01-28 05:36:02,722 - ERROR - Generation failed: Requested tokens (2367) exceed context window of 2048
+2025-01-28 05:36:02,740 - ERROR - Generation failed: Requested tokens (2490) exceed context window of 2048
+2025-01-28 05:42:04,005 - ERROR - Generation failed: Requested tokens (2144) exceed context window of 2048
+2025-01-28 05:42:04,013 - ERROR - Generation failed: Requested tokens (2415) exceed context window of 2048
+2025-01-28 05:44:09,983 - INFO - Training interrupted by user. Saving checkpoint...
+2025-01-28 05:44:23,267 - INFO - Training completed. Model saved to fine_tuned_codellama_django_20250128_0527
+2025-01-28 05:49:46,960 - INFO - Model already exists at models\codellama-7b.Q4_K_M.gguf
+2025-01-28 05:49:48,870 - INFO - Initialized LlamaCppModel with context size: 4096, threads: 8
+2025-01-28 05:49:48,870 - INFO - Model loaded successfully using 8 threads and context window of 4096
+2025-01-28 05:49:49,871 - INFO - Tokenizer loaded successfully
+2025-01-28 05:49:49,872 - INFO - Preparing dataset...
+2025-01-28 05:50:02,734 - INFO - Found 3908 valid Django files
+2025-01-28 05:53:14,434 - INFO - Prepared 978752 examples after processing
+2025-01-28 05:53:15,869 - INFO - Dataset prepared with 978752 examples
+2025-01-28 05:53:18,776 - WARNING - Generation failed: LlamaCppModel.generate() got an unexpected keyword argument 'stop'
+2025-01-28 05:53:18,780 - WARNING - Generation failed: LlamaCppModel.generate() got an unexpected keyword argument 'stop'
+2025-01-28 05:53:20,226 - WARNING - Generation failed: LlamaCppModel.generate() got an unexpected keyword argument 'stop'
+2025-01-28 05:53:20,233 - WARNING - Generation failed: LlamaCppModel.generate() got an unexpected keyword argument 'stop'
+2025-01-28 05:53:20,238 - WARNING - Generation failed: LlamaCppModel.generate() got an unexpected keyword argument 'stop'
+2025-01-28 05:53:20,239 - WARNING - Generation failed: LlamaCppModel.generate() got an unexpected keyword argument 'stop'
+2025-01-28 05:53:20,240 - WARNING - Generation failed: LlamaCppModel.generate() got an unexpected keyword argument 'stop'
+2025-01-28 05:53:20,241 - WARNING - Generation failed: LlamaCppModel.generate() got an unexpected keyword argument 'stop'
+2025-01-28 05:53:20,244 - WARNING - Generation failed: LlamaCppModel.generate() got an unexpected keyword argument 'stop'
+2025-01-28 05:53:20,248 - WARNING - Generation failed: LlamaCppModel.generate() got an unexpected keyword argument 'stop'
+2025-01-28 05:53:20,254 - WARNING - Generation failed: LlamaCppModel.generate() got an unexpected keyword argument 'stop'
+2025-01-28 05:53:20,257 - WARNING - Generation failed: LlamaCppModel.generate() got an unexpected keyword argument 'stop'
+2025-01-28 05:53:20,268 - WARNING - Generation failed: LlamaCppModel.generate() got an unexpected keyword argument 'stop'
+2025-01-28 05:53:20,269 - WARNING - Generation failed: LlamaCppModel.generate() got an unexpected keyword argument 'stop'
+2025-01-28 05:53:20,285 - WARNING - Generation failed: LlamaCppModel.generate() got an unexpected keyword argument 'stop'
+2025-01-28 05:53:20,286 - WARNING - Generation failed: LlamaCppModel.generate() got an unexpected keyword argument 'stop'
+2025-01-28 05:53:20,286 - WARNING - Generation failed: LlamaCppModel.generate() got an unexpected keyword argument 'stop'
+2025-01-28 05:53:20,287 - WARNING - Generation failed: LlamaCppModel.generate() got an unexpected keyword argument 'stop'
+2025-01-28 05:53:20,293 - WARNING - Generation failed: LlamaCppModel.generate() got an unexpected keyword argument 'stop'
+2025-01-28 05:53:20,294 - WARNING - Generation failed: LlamaCppModel.generate() got an unexpected keyword argument 'stop'
+2025-01-28 05:53:20,298 - WARNING - Generation failed: LlamaCppModel.generate() got an unexpected keyword argument 'stop'
+2025-01-28 05:53:20,300 - WARNING - Generation failed: LlamaCppModel.generate() got an unexpected keyword argument 'stop'
+2025-01-28 05:53:20,962 - WARNING - Generation failed: LlamaCppModel.generate() got an unexpected keyword argument 'stop'
+2025-01-28 05:53:20,962 - WARNING - Generation failed: LlamaCppModel.generate() got an unexpected keyword argument 'stop'
+2025-01-28 05:53:20,972 - WARNING - Generation failed: LlamaCppModel.generate() got an unexpected keyword argument 'stop'
+2025-01-28 05:53:20,973 - WARNING - Generation failed: LlamaCppModel.generate() got an unexpected keyword argument 'stop'
+2025-01-28 05:53:20,974 - WARNING - Generation failed: LlamaCppModel.generate() got an unexpected keyword argument 'stop'
+2025-01-28 05:53:20,975 - WARNING - Generation failed: LlamaCppModel.generate() got an unexpected keyword argument 'stop'
+2025-01-28 05:53:20,983 - WARNING - Generation failed: LlamaCppModel.generate() got an unexpected keyword argument 'stop'
+2025-01-28 05:53:20,983 - WARNING - Generation failed: LlamaCppModel.generate() got an unexpected keyword argument 'stop'
+2025-01-28 05:53:20,989 - WARNING - Generation failed: LlamaCppModel.generate() got an unexpected keyword argument 'stop'
+2025-01-28 05:53:20,989 - WARNING - Generation failed: LlamaCppModel.generate() got an unexpected keyword argument 'stop'
+2025-01-28 05:53:20,994 - WARNING - Generation failed: LlamaCppModel.generate() got an unexpected keyword argument 'stop'
+2025-01-28 05:53:20,994 - WARNING - Generation failed: LlamaCppModel.generate() got an unexpected keyword argument 'stop'
+2025-01-28 05:53:21,003 - WARNING - Generation failed: LlamaCppModel.generate() got an unexpected keyword argument 'stop'
+2025-01-28 05:53:21,003 - WARNING - Generation failed: LlamaCppModel.generate() got an unexpected keyword argument 'stop'
+2025-01-28 05:53:21,004 - WARNING - Generation failed: LlamaCppModel.generate() got an unexpected keyword argument 'stop'
+2025-01-28 05:53:21,005 - WARNING - Generation failed: LlamaCppModel.generate() got an unexpected keyword argument 'stop'
+2025-01-28 05:53:21,009 - WARNING - Generation failed: LlamaCppModel.generate() got an unexpected keyword argument 'stop'
+2025-01-28 05:53:21,009 - WARNING - Generation failed: LlamaCppModel.generate() got an unexpected keyword argument 'stop'
+2025-01-28 05:53:21,026 - WARNING - Generation failed: LlamaCppModel.generate() got an unexpected keyword argument 'stop'
+2025-01-28 05:53:21,027 - WARNING - Generation failed: LlamaCppModel.generate() got an unexpected keyword argument 'stop'
+2025-01-28 05:53:22,117 - WARNING - Generation failed: LlamaCppModel.generate() got an unexpected keyword argument 'stop'
+2025-01-28 05:53:22,303 - WARNING - Generation failed: LlamaCppModel.generate() got an unexpected keyword argument 'stop'
+2025-01-28 05:53:22,305 - WARNING - Generation failed: LlamaCppModel.generate() got an unexpected keyword argument 'stop'
+2025-01-28 05:53:22,305 - WARNING - Generation failed: LlamaCppModel.generate() got an unexpected keyword argument 'stop'
+2025-01-28 05:53:22,312 - WARNING - Generation failed: LlamaCppModel.generate() got an unexpected keyword argument 'stop'
+2025-01-28 05:53:22,312 - WARNING - Generation failed: LlamaCppModel.generate() got an unexpected keyword argument 'stop'
+2025-01-28 05:53:22,319 - WARNING - Generation failed: LlamaCppModel.generate() got an unexpected keyword argument 'stop'
+2025-01-28 05:53:22,319 - WARNING - Generation failed: LlamaCppModel.generate() got an unexpected keyword argument 'stop'
+2025-01-28 05:53:22,323 - WARNING - Generation failed: LlamaCppModel.generate() got an unexpected keyword argument 'stop'
+2025-01-28 05:53:22,323 - WARNING - Generation failed: LlamaCppModel.generate() got an unexpected keyword argument 'stop'
+2025-01-28 05:53:22,330 - WARNING - Generation failed: LlamaCppModel.generate() got an unexpected keyword argument 'stop'
+2025-01-28 05:53:22,330 - WARNING - Generation failed: LlamaCppModel.generate() got an unexpected keyword argument 'stop'
+2025-01-28 05:53:22,337 - WARNING - Generation failed: LlamaCppModel.generate() got an unexpected keyword argument 'stop'
+2025-01-28 05:53:22,338 - WARNING - Generation failed: LlamaCppModel.generate() got an unexpected keyword argument 'stop'
+2025-01-28 05:53:22,344 - WARNING - Generation failed: LlamaCppModel.generate() got an unexpected keyword argument 'stop'
+2025-01-28 05:53:22,378 - WARNING - Generation failed: LlamaCppModel.generate() got an unexpected keyword argument 'stop'
+2025-01-28 05:53:22,379 - WARNING - Generation failed: LlamaCppModel.generate() got an unexpected keyword argument 'stop'
+2025-01-28 05:53:22,379 - WARNING - Generation failed: LlamaCppModel.generate() got an unexpected keyword argument 'stop'
+2025-01-28 05:53:22,384 - WARNING - Generation failed: LlamaCppModel.generate() got an unexpected keyword argument 'stop'
+2025-01-28 05:53:22,385 - WARNING - Generation failed: LlamaCppModel.generate() got an unexpected keyword argument 'stop'
+2025-01-28 05:53:23,522 - WARNING - Generation failed: LlamaCppModel.generate() got an unexpected keyword argument 'stop'
+2025-01-28 05:53:23,523 - WARNING - Generation failed: LlamaCppModel.generate() got an unexpected keyword argument 'stop'
+2025-01-28 05:53:23,530 - WARNING - Generation failed: LlamaCppModel.generate() got an unexpected keyword argument 'stop'
+2025-01-28 05:53:23,532 - WARNING - Generation failed: LlamaCppModel.generate() got an unexpected keyword argument 'stop'
+2025-01-28 05:53:23,532 - WARNING - Generation failed: LlamaCppModel.generate() got an unexpected keyword argument 'stop'
+2025-01-28 05:53:23,532 - WARNING - Generation failed: LlamaCppModel.generate() got an unexpected keyword argument 'stop'
+2025-01-28 05:53:23,541 - WARNING - Generation failed: LlamaCppModel.generate() got an unexpected keyword argument 'stop'
+2025-01-28 05:53:23,542 - WARNING - Generation failed: LlamaCppModel.generate() got an unexpected keyword argument 'stop'
+2025-01-28 05:53:23,548 - WARNING - Generation failed: LlamaCppModel.generate() got an unexpected keyword argument 'stop'
+2025-01-28 05:53:23,548 - WARNING - Generation failed: LlamaCppModel.generate() got an unexpected keyword argument 'stop'
+2025-01-28 05:53:23,552 - WARNING - Generation failed: LlamaCppModel.generate() got an unexpected keyword argument 'stop'
+2025-01-28 05:53:23,553 - WARNING - Generation failed: LlamaCppModel.generate() got an unexpected keyword argument 'stop'
+2025-01-28 05:53:23,564 - WARNING - Generation failed: LlamaCppModel.generate() got an unexpected keyword argument 'stop'
+2025-01-28 05:53:23,565 - WARNING - Generation failed: LlamaCppModel.generate() got an unexpected keyword argument 'stop'
+2025-01-28 05:53:23,570 - WARNING - Generation failed: LlamaCppModel.generate() got an unexpected keyword argument 'stop'
+2025-01-28 05:53:23,570 - WARNING - Generation failed: LlamaCppModel.generate() got an unexpected keyword argument 'stop'
+2025-01-28 05:53:23,579 - WARNING - Generation failed: LlamaCppModel.generate() got an unexpected keyword argument 'stop'
+2025-01-28 05:53:23,580 - WARNING - Generation failed: LlamaCppModel.generate() got an unexpected keyword argument 'stop'
+2025-01-28 05:53:23,584 - WARNING - Generation failed: LlamaCppModel.generate() got an unexpected keyword argument 'stop'
+2025-01-28 05:53:23,584 - WARNING - Generation failed: LlamaCppModel.generate() got an unexpected keyword argument 'stop'
+2025-01-28 05:53:25,276 - WARNING - Generation failed: LlamaCppModel.generate() got an unexpected keyword argument 'stop'
+2025-01-28 05:53:25,288 - WARNING - Generation failed: LlamaCppModel.generate() got an unexpected keyword argument 'stop'
+2025-01-28 05:53:25,295 - WARNING - Generation failed: LlamaCppModel.generate() got an unexpected keyword argument 'stop'
+2025-01-28 05:53:25,295 - WARNING - Generation failed: LlamaCppModel.generate() got an unexpected keyword argument 'stop'
+2025-01-28 05:53:25,307 - WARNING - Generation failed: LlamaCppModel.generate() got an unexpected keyword argument 'stop'
+2025-01-28 05:53:25,308 - WARNING - Generation failed: LlamaCppModel.generate() got an unexpected keyword argument 'stop'
+2025-01-28 05:53:25,317 - WARNING - Generation failed: LlamaCppModel.generate() got an unexpected keyword argument 'stop'
+2025-01-28 05:53:25,318 - WARNING - Generation failed: LlamaCppModel.generate() got an unexpected keyword argument 'stop'
+2025-01-28 05:53:25,323 - WARNING - Generation failed: LlamaCppModel.generate() got an unexpected keyword argument 'stop'
+2025-01-28 05:53:25,324 - WARNING - Generation failed: LlamaCppModel.generate() got an unexpected keyword argument 'stop'
+2025-01-28 05:53:25,325 - WARNING - Generation failed: LlamaCppModel.generate() got an unexpected keyword argument 'stop'
+2025-01-28 05:53:25,326 - WARNING - Generation failed: LlamaCppModel.generate() got an unexpected keyword argument 'stop'
+2025-01-28 05:53:25,329 - WARNING - Generation failed: LlamaCppModel.generate() got an unexpected keyword argument 'stop'
+2025-01-28 05:53:25,330 - WARNING - Generation failed: LlamaCppModel.generate() got an unexpected keyword argument 'stop'
+2025-01-28 05:53:25,340 - WARNING - Generation failed: LlamaCppModel.generate() got an unexpected keyword argument 'stop'
+2025-01-28 05:53:25,342 - WARNING - Generation failed: LlamaCppModel.generate() got an unexpected keyword argument 'stop'
+2025-01-28 05:53:25,351 - WARNING - Generation failed: LlamaCppModel.generate() got an unexpected keyword argument 'stop'
+2025-01-28 05:53:25,351 - WARNING - Generation failed: LlamaCppModel.generate() got an unexpected keyword argument 'stop'
+2025-01-28 05:53:34,914 - INFO - Training interrupted by user. Saving checkpoint...
+2025-01-28 05:55:52,573 - INFO - Model already exists at models\codellama-7b.Q4_K_M.gguf
+2025-01-28 05:55:54,151 - INFO - Initialized LlamaCppModel with context size: 4096, threads: 4
+2025-01-28 05:55:54,151 - INFO - Model loaded successfully using 4 threads
+2025-01-28 05:55:54,712 - INFO - Tokenizer loaded successfully
+2025-01-28 05:55:54,712 - INFO - Preparing dataset...
+2025-01-28 05:56:02,712 - INFO - Found 3908 valid Django files
+2025-01-28 05:58:30,997 - INFO - Prepared 978752 examples after processing
+2025-01-28 07:00:54,093 - INFO - Model already exists at models\codellama-7b.Q4_K_M.gguf
+2025-01-28 07:00:56,197 - INFO - Initialized LlamaCppModel with context size: 4096, threads: 2
+2025-01-28 07:00:56,197 - INFO - Model loaded successfully using 2 threads
+2025-01-28 07:00:57,104 - INFO - Tokenizer loaded successfully
+2025-01-28 07:00:57,104 - INFO - Preparing dataset...
+2025-01-28 07:01:07,614 - INFO - Found 3908 valid Django files
+2025-01-28 08:52:26,365 - INFO - Model already exists at models\codellama-7b.Q4_K_M.gguf
+2025-01-28 08:52:30,667 - INFO - Initialized LlamaCppModel with context size: 2048, single thread
+2025-01-28 08:52:31,477 - ERROR - Failed to load tokenizer: 
+CodeLlamaTokenizer requires the SentencePiece library but it was not found in your environment. Checkout the instructions on the
+installation page of its repo: https://github.com/google/sentencepiece#installation and follow the ones
+that match your environment. Please note that you may need to restart your runtime after installation.
+
+2025-01-28 08:53:24,262 - INFO - Model already exists at models\codellama-7b.Q4_K_M.gguf
+2025-01-28 08:53:28,665 - INFO - Initialized LlamaCppModel with context size: 2048, single thread
+2025-01-28 08:53:29,511 - INFO - Tokenizer loaded successfully
+2025-01-28 08:53:29,511 - INFO - Preparing dataset...
+2025-01-28 08:54:50,420 - INFO - Found 3908 valid Django files
